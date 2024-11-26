@@ -2,7 +2,7 @@
 
 ## Faça um Fork do Repositório
 
-Faça um fork do repositório 
+Faça um fork do repositório https://github.com/maroquio/Atividade2PW2024.git para um repositório de mesmo nome, porém, em sua conta GitHub. Em seguida, clone o projeto em seu computador e inicie as tarefas a seguir. Recomendo que cada trio faça a atividade em apenas 1 computador.
 
 ## Modifique o Arquivo README.md
 
