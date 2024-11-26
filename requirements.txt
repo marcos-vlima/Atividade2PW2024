@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+itsdangerous
+bcrypt
+jinja2
+pydantic
