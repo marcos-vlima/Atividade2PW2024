@@ -6,6 +6,19 @@
 <form method="post" class="row">
     <div class="col-12">
         <div class="form-floating mb-3">
+            <select class="form-control" name="categoria" id="categoria">
+                <option value="">Selecione uma categoria</option>
+                {% for categoria in lista_categorias %}
+                    <option value="{{ categoria.id }}">
+                        {{ categoria.nome }}
+                    </option>
+                {% endfor %}
+            </select>
+            <label for="categoria">Categoria</label>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="form-floating mb-3">
             <input type="text" class="form-control" name="nome" id="nome" placeholder=" " value="{{produto.nome or ''}}"/>
             <label for="nome">Nome</label>
         </div>
